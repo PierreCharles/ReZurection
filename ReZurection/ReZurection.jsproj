@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|AnyCPU">
+      <Configuration>Debug</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|AnyCPU">
+      <Configuration>Release</Configuration>
+      <Platform>AnyCPU</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>8d216d2f-c383-4956-ab10-b0d8bd489e5c</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0'">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).Default.props" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).props" />
+  <PropertyGroup>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>$(VersionNumberMajor).$(VersionNumberMinor)</MinimumVisualStudioVersion>
+    <DefaultLanguage>fr-FR</DefaultLanguage>
+    <PackageCertificateKeyFile>ReZeurection_TemporaryKey.pfx</PackageCertificateKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\bin\$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\bin\$(Configuration)</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppxManifest Include="package.appxmanifest">
+      <SubType>Designer</SubType>
+    </AppxManifest>
+    <Content Include="assets\fonts\BAD_GRUNGE.TTF" />
+    <Content Include="assets\fonts\font.fnt" />
+    <Content Include="assets\fonts\font.png" />
+    <Content Include="assets\images\bonus\coin.png" />
+    <Content Include="assets\images\bonus\bomb.png" />
+    <Content Include="assets\images\bullets\bullet1.png" />
+    <Content Include="assets\images\bullets\bullet2.png" />
+    <Content Include="assets\images\bullets\bullet3.png" />
+    <Content Include="assets\images\door\door.png" />
+    <Content Include="assets\images\floor\floor.png" />
+    <Content Include="assets\images\launch\LockScreenLogo.scale-200.png" />
+    <Content Include="assets\images\launch\SplashScreen.scale-200.png" />
+    <Content Include="assets\images\launch\Square150x150Logo.scale-200.png" />
+    <Content Include="assets\images\launch\Square44x44Logo.scale-200.png" />
+    <Content Include="assets\images\launch\Square44x44Logo.targetsize-24_altform-unplated.png" />
+    <Content Include="assets\images\launch\StoreLogo.png" />
+    <Content Include="assets\images\launch\Wide310x150Logo.scale-200.png" />
+    <Content Include="assets\images\logo.png" />
+    <Content Include="assets\images\menu\pauseButton.png" />
+    <Content Include="assets\images\player\dude_sheet.png" />
+    <Content Include="assets\images\progress_bar\progress_bar.png" />
+    <Content Include="assets\images\progress_bar\progress_bar_bdr.png" />
+    <Content Include="assets\images\wall\wall.png" />
+    <Content Include="assets\images\zombies\zombie4.png" />
+    <Content Include="assets\sounds\bomb.mp3" />
+    <Content Include="assets\sounds\bomb.ogg" />
+    <Content Include="assets\sounds\coin.mp3" />
+    <Content Include="assets\sounds\coin.ogg" />
+    <Content Include="index.html" />
+    <Content Include="js\lib\astar.js" />
+    <Content Include="js\lib\easystar.js" />
+    <Content Include="js\lib\easystar.min.js" />
+    <Content Include="js\lib\phaser.js" />
+    <Content Include="js\lib\phaser.min.js" />
+    <Content Include="js\lib\virtualJoystick.js" />
+    <Content Include="js\main.js" />
+    <Content Include="css\default.css" />
+    <Content Include="js\src\control\playercontroller.js" />
+    <Content Include="js\src\control\soundplayer.js" />
+    <Content Include="js\src\control\objectcontainer.js" />
+    <Content Include="js\src\control\stagemanager.js" />
+    <Content Include="js\src\control\weapon\bulletweapon.js" />
+    <Content Include="js\src\control\weapon\gun.js" />
+    <Content Include="js\src\control\weapon\weaponcontroller.js" />
+    <Content Include="js\src\control\world.js" />
+    <Content Include="js\src\control\zombiecontroller.js" />
+    <Content Include="js\src\debug.js" />
+    <Content Include="js\src\input\keyboardmousehandler.js" />
+    <Content Include="js\src\input\inputhandler.js" />
+    <Content Include="js\src\input\touchscreenhandler.js" />
+    <Content Include="js\src\control\collisiondetector.js" />
+    <Content Include="js\src\control\collisioncontroller.js" />
+    <Content Include="js\src\control\pathfinder.js" />
+    <Content Include="js\src\control\zombiesintelligence.js" />
+    <Content Include="js\src\model\case.js" />
+    <Content Include="js\src\model\graph.js" />
+    <Content Include="js\src\model\MazeCell.js" />
+    <Content Include="js\src\model\MazeCreator.js" />
+    <Content Include="js\src\model\MazeDefinition.js" />
+    <Content Include="js\src\model\MazePath.js" />
+    <Content Include="js\src\model\MazeWall.js" />
+    <Content Include="js\src\model\playerdata.js" />
+    <Content Include="js\src\screen\gamescreen.js" />
+    <Content Include="js\src\screen\loadscreen.js" />
+    <Content Include="js\src\screen\mainscreen.js" />
+    <Content Include="js\src\screen\menuscreen.js" />
+    <Content Include="js\src\sprite\bombsprite.js" />
+    <Content Include="js\src\sprite\bulletsprite.js" />
+    <Content Include="js\src\sprite\coinsprite.js" />
+    <Content Include="js\src\sprite\doorsprite.js" />
+    <Content Include="js\src\sprite\genericsprite.js" />
+    <Content Include="js\src\sprite\playersprite.js" />
+    <Content Include="js\src\sprite\simplebulletsprite.js" />
+    <Content Include="js\src\sprite\wallsprite.js" />
+    <Content Include="js\src\sprite\zombiesprite.js" />
+    <Content Include="tests\lib\jasmine-2.3.4\boot.js" />
+    <Content Include="tests\lib\jasmine-2.3.4\console.js" />
+    <Content Include="tests\lib\jasmine-2.3.4\jasmine-html.js" />
+    <Content Include="tests\lib\jasmine-2.3.4\jasmine.css" />
+    <Content Include="tests\lib\jasmine-2.3.4\jasmine.js" />
+    <Content Include="tests\lib\jasmine-2.3.4\jasmine_favicon.png" />
+    <Content Include="tests\SpecRunner.html" />
+    <Content Include="tests\spec\maze\MazeTest.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
+  <!-- To modify your build process, add your task inside one of the targets below then uncomment
+       that target and the DisableFastUpToDateCheck PropertyGroup. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <PropertyGroup>
+    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
+  </PropertyGroup>
+  -->
+</Project>

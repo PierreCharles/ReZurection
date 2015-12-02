@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PIERRE-PC</Machine>
+    <WindowsUser>Pierre.C</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>9cf6d3ec-d1b7-486d-837b-64c19dfd5c89</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\bld\x64\Release\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\bin\x64\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\fonts\BAD_GRUNGE.TTF">
+      <PackagePath>assets\fonts\BAD_GRUNGE.TTF</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\fonts\font.fnt">
+      <PackagePath>assets\fonts\font.fnt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\fonts\font.png">
+      <PackagePath>assets\fonts\font.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\bonus\coin.png">
+      <PackagePath>assets\images\bonus\coin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\bullets\bullet1.png">
+      <PackagePath>assets\images\bullets\bullet1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\bullets\bullet2.png">
+      <PackagePath>assets\images\bullets\bullet2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\floor\floor.png">
+      <PackagePath>assets\images\floor\floor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\launch\LockScreenLogo.scale-200.png">
+      <PackagePath>assets\images\launch\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\launch\SplashScreen.scale-200.png">
+      <PackagePath>assets\images\launch\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\launch\Square150x150Logo.scale-200.png">
+      <PackagePath>assets\images\launch\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\launch\Square44x44Logo.scale-200.png">
+      <PackagePath>assets\images\launch\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\launch\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>assets\images\launch\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\launch\StoreLogo.png">
+      <PackagePath>assets\images\launch\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\launch\Wide310x150Logo.scale-200.png">
+      <PackagePath>assets\images\launch\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\logo.png">
+      <PackagePath>assets\images\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\menu\pauseButton.png">
+      <PackagePath>assets\images\menu\pauseButton.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\player\dude_sheet.png">
+      <PackagePath>assets\images\player\dude_sheet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\progress_bar\progress_bar.png">
+      <PackagePath>assets\images\progress_bar\progress_bar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\progress_bar\progress_bar_bdr.png">
+      <PackagePath>assets\images\progress_bar\progress_bar_bdr.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\wall\wall.png">
+      <PackagePath>assets\images\wall\wall.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\images\zombies\zombie4.png">
+      <PackagePath>assets\images\zombies\zombie4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\number-buttons-90x90.png">
+      <PackagePath>assets\number-buttons-90x90.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\tests\lib\jasmine-2.3.4\jasmine_favicon.png">
+      <PackagePath>tests\lib\jasmine-2.3.4\jasmine_favicon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\sounds\coin.mp3">
+      <PackagePath>assets\sounds\coin.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\assets\sounds\coin.ogg">
+      <PackagePath>assets\sounds\coin.ogg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\index.html">
+      <PackagePath>index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\tests\SpecRunner.html">
+      <PackagePath>tests\SpecRunner.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\lib\astar.js">
+      <PackagePath>js\lib\astar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\lib\easystar.js">
+      <PackagePath>js\lib\easystar.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\lib\easystar.min.js">
+      <PackagePath>js\lib\easystar.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\lib\phaser.js">
+      <PackagePath>js\lib\phaser.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\lib\phaser.min.js">
+      <PackagePath>js\lib\phaser.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\lib\virtualJoystick.js">
+      <PackagePath>js\lib\virtualJoystick.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\main.js">
+      <PackagePath>js\main.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\mazecreator.js">
+      <PackagePath>js\mazecreator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\playercontrol\keyboardmouseplayercontroller.js">
+      <PackagePath>js\playercontrol\keyboardmouseplayercontroller.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\playercontrol\playercontroller.js">
+      <PackagePath>js\playercontrol\playercontroller.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\playercontrol\virtualjoystickplayercontroller.js">
+      <PackagePath>js\playercontrol\virtualjoystickplayercontroller.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\resolver.js">
+      <PackagePath>js\resolver.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\objects\coinmanager.js">
+      <PackagePath>js\objects\coinmanager.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\objects\floor.js">
+      <PackagePath>js\objects\floor.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\objects\graph.js">
+      <PackagePath>js\objects\graph.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\objects\map.js">
+      <PackagePath>js\objects\map.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\objects\movingobject.js">
+      <PackagePath>js\objects\movingobject.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\objects\player.js">
+      <PackagePath>js\objects\player.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\objects\wallmanager.js">
+      <PackagePath>js\objects\wallmanager.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\objects\weapon.js">
+      <PackagePath>js\objects\weapon.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\objects\zombie.js">
+      <PackagePath>js\objects\zombie.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\objects\zombieManager.js">
+      <PackagePath>js\objects\zombieManager.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\states\game.js">
+      <PackagePath>js\states\game.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\states\mainstate.js">
+      <PackagePath>js\states\mainstate.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\states\mainmenu.js">
+      <PackagePath>js\states\mainmenu.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\states\level.js">
+      <PackagePath>js\states\level.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\states\load.js">
+      <PackagePath>js\states\load.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\js\useful\position.js">
+      <PackagePath>js\useful\position.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\tests\lib\jasmine-2.3.4\boot.js">
+      <PackagePath>tests\lib\jasmine-2.3.4\boot.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\tests\lib\jasmine-2.3.4\console.js">
+      <PackagePath>tests\lib\jasmine-2.3.4\console.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\tests\lib\jasmine-2.3.4\jasmine-html.js">
+      <PackagePath>tests\lib\jasmine-2.3.4\jasmine-html.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\tests\lib\jasmine-2.3.4\jasmine.js">
+      <PackagePath>tests\lib\jasmine-2.3.4\jasmine.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\tests\spec\resolverTest.js">
+      <PackagePath>tests\spec\resolverTest.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\tests\lib\jasmine-2.3.4\jasmine.css">
+      <PackagePath>tests\lib\jasmine-2.3.4\jasmine.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Pierre.C\Documents\Cours\Licence Web\Projet Licence\rezurection\ReZurection\bin\x64\Release\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
