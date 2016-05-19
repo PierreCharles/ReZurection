@@ -1,11 +1,19 @@
-# README #
+**ReZurection - Readme**
+===================
 
-ReZurection is a 2D shoot-them-up writted in JavaScript.
-The main purpose is to produce a Windows native application,
-but since JavaScript is supported on all platforms, the project will be easy to port.
-Game should be finished in December 2015.
+ReZurection is a 2D shoot-them-up game writted in JavaScript using Phaser. 
 
-### Team : ###
+>The context of the game is set in a fantasy world populated by zombies and the player or players where they are the only remaining humans. The game will have a single player and it is compatible with a touch gestures and keyboard.
 
-•	Grégoire CHAMBERLAND,            gregoire.chamberland@etu.udamail.fr
-•	Pierre CHARLES,                  pierre.charles@etu.udamail.fr
+----------
+
+**Launch :**
+-------
+
+ Oppen the **"index.html"** file in the reZurection directory with your favorite web browser.
+
+**Team :**
+-------
+
+>• Grégoire CHAMBERLAND
+>• Pierre CHARLES
