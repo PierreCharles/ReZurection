@@ -15,5 +15,5 @@ ReZurection is a 2D shoot-them-up game writted in JavaScript using Phaser.
 **Team :**
 -------
 
->• Grégoire CHAMBERLAND
->• Pierre CHARLES
+- Grégoire CHAMBERLAND
+- Pierre CHARLES
