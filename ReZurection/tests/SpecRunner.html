@@ -14,27 +14,37 @@
     <script src="lib/jasmine-2.3.4/boot.js"></script>
 
     <!-- Scripts: spec -->
-    <script src="spec/maze/MazeTest.js"></script>
+    <script src="spec/MazeTest.js"></script>
+    <script src="spec/CaseTest.js"></script>
+    <script src="spec/GraphTest.js"></script>
+    <script src="spec/PlayerDataTest.js"></script>
+    <script src="spec/SpriteTest.js"></script>
 
     <!-- GAME -->
     <!-- Scripts: lib -->
     <script src="../js/lib/astar.js"></script>
     <script src="../js/lib/phaser.js"></script>
     <script src="../js/lib/virtualJoystick.js"></script>
+    <script src="../js/lib/polyfill/array_find.js"></script>
+    <script src="../js/lib/phaser-debug.js"></script>
 
     <!-- Scripts: control -->
-    <script src="../js/src/control/tools.js"></script>
     <script src="../js/src/control/objectcontainer.js"></script>
-    <script src="../js/src/control/worldbuilder.js"></script>
-    <script src="../js/src/control/collisionmanager.js"></script>
-    <script src="../js/src/control/logiccontroller.js"></script>
-    <script src="../js/src/control/map.js"></script>
+    <script src="../js/src/control/objectmanager.js"></script>
+    <script src="../js/src/control/world.js"></script>
+    <script src="../js/src/control/collisiondetector.js"></script>
+    <script src="../js/src/control/collisioncontroller.js"></script>
+    <script src="../js/src/control/pathfinder.js"></script>
     <script src="../js/src/control/zombiesintelligence.js"></script>
     <script src="../js/src/control/soundplayer.js"></script>
     <script src="../js/src/control/playercontroller.js"></script>
     <script src="../js/src/control/zombiecontroller.js"></script>
     <script src="../js/src/control/weapon/bulletweapon.js"></script>
     <script src="../js/src/control/weapon/gun.js"></script>
+    <script src="../js/src/control/weapon/shotgun.js"></script>
+    <script src="../js/src/control/weapon/lazergun.js"></script>
+    <script src="../js/src/control/mazeresolver.js"></script>
+    <script src="../js/src/control/displaygamecontrol.js"></script>
 
     <!-- Scripts: input -->
     <script src="../js/src/input/inputhandler.js"></script>
@@ -48,12 +58,16 @@
     <script src="../js/src/model/MazeDefinition.js"></script>
     <script src="../js/src/model/MazeCreator.js"> </script>
     <script src="../js/src/model/graph.js"></script>
+    <script src="../js/src/model/case.js"></script>
+    <script src="../js/src/model/playerdata.js"></script>
+    <script src="../js/src/model/weapons.js"></script>
 
     <!-- Scripts: screen -->
     <script src="../js/src/screen/gamescreen.js"></script>
     <script src="../js/src/screen/loadscreen.js"></script>
     <script src="../js/src/screen/mainscreen.js"></script>
     <script src="../js/src/screen/menuscreen.js"></script>
+    <script src="../js/src/screen/gameoverscreen.js"></script>
 
     <!-- Scripts: sprite -->
     <script src="../js/src/sprite/genericsprite.js"></script>

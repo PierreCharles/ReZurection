@@ -1,4 +1,8 @@
-﻿describe("Maze Generator Test :", function () {
+﻿/**
+ * Auhtor : CHAMBERLAND Grégoire & CHARLES Pierre
+ */
+
+describe("REZURECTION MAZE GENERATOR TEST :", function () {
     var mazeDefinition, maze, cell, wall, path;
 
     beforeEach(function () {
@@ -28,8 +32,11 @@
         expect(maze.width).toEqual(10);
     });
 
-    it("Test MazeDefinition return MazeCreator properties closedWalls", function () {
+    it("Test MazeDefinition return MazeCreator properties closedWalls is Array instance", function () {
         expect(maze.closedWalls instanceof Array).toBeTruthy;
+    });
+
+    it("Test MazeDefinition return MazeCreator properties closedWalls", function () {
         expect(maze.closedWalls.length).toEqual((maze.height - 1) * (maze.width - 1));
     });
 
@@ -42,14 +49,10 @@
     });
 
     it("Instanciate a MazeCell with null arguments", function () {
-        try {
             expect(function () {
                 new Rezurection.MazeCell(null);
             }).toThrowError("MazeCell arguments cannot be null");
-        }
-        catch (ex) {
-            console.log(ex);
-        }
+     
     });
 
     it("Test MazeCell properties row", function () {
